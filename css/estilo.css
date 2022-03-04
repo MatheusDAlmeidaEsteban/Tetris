@@ -1,24 +1,25 @@
 body {
     width: 96vw;
-    height: 100vh;
+    height: 96vh;
     background-image: url(../img/264133-4k-60fps-ultrawide-wallpaper-engine-see-desc.jpg);
     background-repeat: round;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
-    margin-top: 1rem;
+    
 }
 
 h1 {
     font-size: 2.5rem;
     color: white;
-    margin: 1rem 0;
+    margin: 0.5rem ;
+    
 }
 
 .jogoJanela {
     width: 33vw;
-    height: 75vh;
+    height: 70vh;
     opacity: 0.6;
     background-color: black;
     border: 1px solid black;
@@ -44,8 +45,8 @@ h1 {
 
 .rotape {
     position: relative;
-    top: 50px;
-    width: 100vw;
+    top:26px;
+    width: 102.5vw;
     background-color: black;
     display: flex;
     align-items: center;
